@@ -1,0 +1,161 @@
+* {
+    font-family: Inter, sans-serif;
+}
+
+body {
+    background-color: #23252C;
+}
+
+.contentContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.allContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: #1a1b21;
+    max-width: 350px;
+    max-height: 800px;
+    border-radius: 10px;
+}
+
+.faceImage {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.dumbFuck{
+    border-radius: 10px 10px 0 0 ;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainInfo > h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.mainInfo > h3 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    color: #F3BF99;
+}
+
+.mainInfo > h5 {
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 7px;
+}
+
+.mainInfo > h5 > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.linkButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.linkButtons > a{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 100px;
+    text-decoration: none;
+}
+.emailButton {
+    background-color: #ffffff;
+    color: #23252C;
+    
+}
+
+.emailButton > a {
+    padding-left: 7px;
+}
+
+.emailButton:hover {
+    background-color: #a0a0a0;
+    color: #000000;
+}
+
+.linkedInButton {
+    background-color: #0077b6;
+    color: #ffffff;
+
+}
+
+.linkedInButton:hover {
+    background-color: #0077b6;
+    color: #000000;
+}
+
+
+.linkedInButton > a {
+    padding-left: 7px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.footer {
+    height: 50px;
+    width: 350px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: -70px;
+}
+
+.footer > a {
+    color: #918E9B;
+    padding: 10px;
+}
+
+.Description {
+    padding: 0 10% 0 10%;
+}
+
+.Description > p {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
